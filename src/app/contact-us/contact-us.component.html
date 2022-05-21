@@ -1,0 +1,23 @@
+<div class="container">
+
+    <mat-form-field appearance="fill">
+        <mat-label>Enter your email</mat-label>
+        <input matInput placeholder="medifolks@example.com" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+        <mat-label>Actor</mat-label>
+        <mat-select>
+          <mat-option value="one">Volunteer</mat-option>
+          <mat-option value="two">Patient</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Feedback</mat-label>
+        <textarea matInput></textarea>
+    </mat-form-field>
+
+    <div mat-dialog-actions [align]="'end'"><button mat-raised-button color="warn">Submit</button></div>
+      
+</div>

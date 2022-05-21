@@ -1,0 +1,54 @@
+{
+  "eventList": [
+    {
+      "title": "free heart camp",
+      "subject": "Heart",
+      "location": "Dhaka",
+      "address": "mirpur-1",
+      "date": "2022-05-16T18:00:00.000Z",
+      "id": 1
+    },
+    {
+      "title": "free kidney camp",
+      "subject": "Kidney",
+      "location": "Rajshahi",
+      "address": "RU",
+      "date": "2022-05-25T18:00:00.000Z",
+      "id": 2
+    },
+    {
+      "title": "free diabetes camp",
+      "subject": "Diabetese",
+      "location": "Mymensingh",
+      "address": "BAU",
+      "date": "2022-06-29T18:00:00.000Z",
+      "id": 3
+    },
+    {
+      "title": "free Dental camp",
+      "subject": "Dental",
+      "location": "Sylhet",
+      "address": "somewhere",
+      "date": "2022-05-24T18:00:00.000Z",
+      "id": 5
+    },
+    {
+      "title": "free medicine camp",
+      "subject": "Medicine",
+      "location": "Dhaka",
+      "address": "Savar",
+      "date": "2022-07-04T18:00:00.000Z",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

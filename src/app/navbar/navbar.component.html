@@ -1,0 +1,16 @@
+<nav class="navbar">
+    <div class="logo">
+        <img src="assets/img/logo.png" alt="">
+        <a routerLink="Home">Medi<span>Folks</span></a>
+    </div>
+
+    <div id="nav-right">
+        <div class="nav-contents">
+            <a routerLink="Patient" [routerLinkActive]="'active'" id="patients">Make Requests</a>
+            <a routerLink="Blogs" [routerLinkActive]="'active'" id="blogs">Blogs</a>
+            <a [routerLink]="'Contact'" [routerLinkActive]="'active'" id="contact">Contact us</a>
+        </div>
+
+        <button id="btn btn-primary"><fa-icon [icon]="faRightToBracket"></fa-icon>Login</button>
+    </div>
+</nav>

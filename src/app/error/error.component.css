@@ -1,0 +1,18 @@
+p {
+    position: relative;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1{
+    position: relative;
+    color: crimson;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 100px;
+}

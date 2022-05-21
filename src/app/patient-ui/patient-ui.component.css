@@ -1,0 +1,81 @@
+.Patient-UI{
+    font-family: 'Raleway', sans-serif;
+    height: 650px;
+    /* background-color: rgba(191, 233, 240, 0.514); */
+    /* background-color: rgba(223, 245, 251); */
+    border: 1px solid white;
+    text-align: center;
+}
+
+.intro{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.intro h1{
+    display: inline;
+    position: relative;
+    font-size: 45px;
+    text-align: center;
+}
+
+.intro h1 span{
+    color: crimson;
+}
+
+.intro p{
+    display: inline;
+    position: relative;
+    font-size: 27px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.request-description button{
+    border: none;
+    width: 395px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.request-description button:hover{
+    border: 2px solid crimson;
+    color: crimson;
+    background: none;
+}
+
+.request-description p{
+    display: inline;
+    position: relative;
+    /* text-align: center; */
+}
+
+.request-description{
+    /* margin-top: 30px; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro p span{
+    color: crimson;
+}
+
+table {
+    width: 100%;
+}
+  
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+mat-label{
+    color: rgb(66, 66, 66);
+}
+
+td{
+    text-align: left;
+}

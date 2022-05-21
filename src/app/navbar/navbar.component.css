@@ -1,0 +1,111 @@
+*{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 25px; */
+}
+
+.navbar{
+    position: static;
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-shadow: crimson;
+
+}
+
+.logo{
+    display: inline;
+    margin-left: 100px;
+    margin-top: 12px;
+}
+
+.logo img{
+    position: relative;
+    height: 60px;
+}
+
+.logo a{
+    display: inline;
+    position: relative;
+    color: #000000;
+    font-size: 35px;
+}
+
+.logo a span{
+    color: crimson;
+}
+
+#nav-right {
+    /* display: inline; */
+    float: right;
+    margin-right: 215px;
+    text-decoration: none;
+    display: inline;
+
+}
+
+.nav-contents{
+    position: relative;
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#blogs{
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#contact{
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#patients{
+    position: relative;
+    display: inline;
+    cursor: pointer;
+}
+
+.nav-contents a{
+    color: crimson;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#nav-right button{
+    position: relative;
+    display: inline;
+    background-color: crimson;
+    padding: 13px;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+#nav-right button:hover{
+    background: none;
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+#nav-right button fa-icon{
+    position: relative;
+    padding-right: 3px;
+}
+
+.nav-contents a:hover{
+    color: white;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: rgba(220, 20, 60);
+}
+
